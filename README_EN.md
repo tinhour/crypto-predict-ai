@@ -151,7 +151,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📧 Contact
 
-- Author: [tinhour]
+- Author:  [@tinhour](https://github.com/tinhour)
 - Email: [fangfeng335@gmail.com]
 
 ## 🙏 Acknowledgments

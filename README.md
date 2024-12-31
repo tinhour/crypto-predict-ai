@@ -156,7 +156,7 @@ GET /api/klines?exchange=binance&timeframe=1D
 
 ## 📧 联系方式
 
-- 作者：[tinhour]
+- 作者： [@tinhour](https://github.com/tinhour)
 - 邮箱：[fangfeng335@gmail.com]
 
 ## 🙏 致谢
