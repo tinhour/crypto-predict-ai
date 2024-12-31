@@ -1,0 +1,62 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <title>训练报告</title>
+            <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                .chart { width: 100%; height: 400px; margin-bottom: 20px; }
+            </style>
+        </head>
+        <body>
+            <h1>模型训练报告</h1>
+            
+            <h2>损失值趋势</h2>
+            <div id="lossChart" class="chart"></div>
+            
+            <h2>准确率趋势</h2>
+            <div id="accuracyChart" class="chart"></div>
+            
+            <script>
+                const history = {"loss":[],"accuracy":[],"val_loss":[],"val_accuracy":[]};
+                
+                // 绘制损失值图表
+                Plotly.newPlot('lossChart', [
+                    {
+                        y: history.loss,
+                        name: '训练损失值',
+                        type: 'scatter'
+                    },
+                    {
+                        y: history.val_loss,
+                        name: '验证损失值',
+                        type: 'scatter'
+                    }
+                ], {
+                    title: '损失值趋势',
+                    xaxis: { title: 'Epoch' },
+                    yaxis: { title: 'Loss' }
+                });
+                
+                // 绘制准确率图表
+                Plotly.newPlot('accuracyChart', [
+                    {
+                        y: history.accuracy,
+                        name: '训练准确率',
+                        type: 'scatter'
+                    },
+                    {
+                        y: history.val_accuracy,
+                        name: '验证准确率',
+                        type: 'scatter'
+                    }
+                ], {
+                    title: '准确率趋势',
+                    xaxis: { title: 'Epoch' },
+                    yaxis: { title: 'Accuracy' }
+                });
+            </script>
+        </body>
+        </html>
+    
