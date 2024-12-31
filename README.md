@@ -2,7 +2,7 @@
 
 crypto-predict-ai 是一个比特币价格数据收集、分析和预测工具。使用机器学习模型分析比特币市场趋势，支持多交易所数据源。
 
-![数据分析截图](./screenshots/analysis.png)
+![数据分析截图](https://github.com/tinhour/crypto-predict-ai/blob/master/screenshot/analysis.png?raw=true)
 
 ## ✨ 主要特性
 
