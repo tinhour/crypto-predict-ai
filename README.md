@@ -132,69 +132,6 @@ GET /api/klines?exchange=binance&timeframe=1D
 
 更多配置选项请查看 [config.js](src/config.js)
 
-```bash
-npm run fetch:full 获取完整数据得到的结果
-
-执行全量数据获取
-
-开始获取 Binance 的比特币历史数据...
-
-开始获取 OKX 的比特币历史数据...
-
-开始获取 Huobi 的比特币历史数据...
-数据已保存到: data\btc_price_okx_20170701_20241230.json
-OKX 数据获取完成，共 0 条记录
-Binance进度: 38.23% (当前日期: 2020-05-13)
-数据已保存到: data\btc_price_huobi_20170701_20241230.json
-Huobi 数据获取完成，共 2000 条记录
-Binance进度: 74.73% (当前日期: 2023-02-07)
-Binance进度: 100.02% (当前日期: 2024-12-31)
-数据已保存到: data\btc_price_binance_20170701_20241230.json
-Binance 数据获取完成，共 2693 条记录
-数据已保存到: data\btc_price_validated.json
-数据已保存到: data\btc_price_anomalies.json
-数据已保存到: data\btc_price_analysis.json
-
-数据验证统计:
-总天数: 2693
-有效天数: 2693
-数据完整率: 100.00%
-
-交易所数据覆盖率:
-Binance: 100.00%
-Huobi: 74.27%
-
-异常统计:
-价格差异异常: 797条
-交易量异常: 10条
-数据缺失: 0条
-价格跳跃: 4条
-
-价格统计:
-历史最高: $106482.19 (2024-12-17 on Huobi)
-历史最低: $3189.02 (2017-09-14 on Binance)
-
-波动率统计:
-Binance: 59.85%
-Huobi: 52.65%
-
-市场份额:
-Binance: 83.01%
-Huobi: 16.99%
-
-趋势统计:
-
-Binance:
-上涨天数: 1387 (51.54%)
-下跌天数: 1304 (48.46%)
-平盘天数: 0 (0.00%)
-
-Huobi:
-上涨天数: 1055 (52.86%)
-下跌天数: 941 (47.14%)
-平盘天数: 0 (0.00%)
-```
-
 ## 🤝 贡献指南
 
 1. Fork 本仓库
